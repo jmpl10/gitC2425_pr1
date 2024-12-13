@@ -7,5 +7,9 @@ public Persona(String nom, int edad) {
 	this.nom = nom;
 	this.edad = edad;
 }
+@Override
+public String toString() {
+	return "Persona [nom=" + nom + ", edad=" + edad + "]";
+}
   
 }
