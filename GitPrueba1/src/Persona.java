@@ -1,5 +1,6 @@
 
 public class Persona {
+<<<<<<< HEAD
   String nom;
   int edad;
 public Persona(String nom, int edad) {
@@ -12,4 +13,8 @@ public String toString() {
 	return "Persona [nom=" + nom + ", edad=" + edad + "]";
 }
   
+=======
+  String nombre;
+  int edad;
+>>>>>>> master
 }
